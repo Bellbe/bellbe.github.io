@@ -1,7 +1,7 @@
 <html>
 <body>
- <h2><?php echo $_POST["date"]; ?></h>
- <p><?php echo $_POST["progress"]; ?></p>
- <p><?php echo $_POST["goals"]; ?></p>
+ <?php echo $_POST["date"]; ?>
+ <?php echo $_POST["progress"]; ?>
+ <?php echo $_POST["goals"]; ?>
 </body>
 </html>
