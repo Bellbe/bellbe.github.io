@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Design Project</title>
+<style>
+h {
+	font-size: 1.2em;
+	}
+#div1 {
+	background-color: rgba(0,50,250,0.3);
+	max-width: 700px;
+	border: 15px solid rgba(192,192,192,0.4);
+	padding: 30px;
+	margin: auto;
+	font-size: 3em;
+	font-weight: 800;
+	text-align: center;
+	font-family: "Chaparral Pro Light"
+	}
+#div2 {
+	font-family: Arial, "Sans-serif";
+	font-size: 1.5em;
+	text-align: left;
+	margin-left: 20vw;
+	}
+#div3 {
+	font-family: Arial, "Sans-serif";
+	width: 60vw;
+    padding: 25px;
+    margin-left: 20vw;
+	text-align: left;
+	}
+#div4 {
+    width: 30vw;
+    border: 3px solid black;
+    padding: 25px;
+    margin-left: 35vw;
+	text-align: left;
+	}
+</style>
+</head>
+<body>
+
+<div id="div1"> How To Design a Good Website </div>
+<br>
+<br>
+<div id="div2"> Design </div>
+<div id="div3">
+Having too many contrasting colours will make a website confusing to look at. Make most of the colours 
+similar, using contrast sparingly to draw attention to important aspects of the site (or things you want 
+people to interact with, such as links to other pages).
+White space behind text and around images will make them easier to read or look at and make your website 
+look more refined.
+</div>
+<br>
+<div id="div2"> Text </div>
+<div id="div3">
+Be concise, too much waffle makes reading a page a chore. 
+Organise the information under logical headings to make it easy to sort through. 
+Use an easy-to-read, modern font. Sans serif and not one of the handwriting ones or comic sans is a good 
+bet.
+</div>
+<br>
+<div id="div2"> Layout </div>
+<div id="div3">
+Simple design will make a website easier to understand. The information on each page should be quick to 
+read through. 
+Organising information with the most important at the top left of the page (where people will look first) 
+will also help to get your point across and let people know what the point of each page is. 
+Placing objects (text and images) on your website in a grid will stop it looking messy and 
+amateur.
+</div>
+<br>
+<div id="div2">Usability</div>
+<div id="div3">
+Make navigating the website easy, group things together in a way people will expect to make it easier to 
+find them. 
+If you have multiple pages, have a menu somewhere obvious and limit the number of items in it 
+so it's quick to scan through. 
+Try to minimise the time it takes your page to load. Images make the page look nicer but take a lot of 
+time to load, especially if you have lots of high quality.
+If possible, make the webpage responsive to the device it is being viewed on. It is always annoying to 
+try to access a website only to find it either doesn't work on your device or the layout is so messed up 
+that it is effectively unusable.
+</div>
+<br>
+<div id="div4">
+<h><center>REFERENCES:</center></h>
+<p><center>(ranked from best web design to worst)</center></p>
+<ul>
+<li>
+<a href="https://sharpened.com/web_design_rules" target="_blank">https://sharpened.com/web_design_rules
+</a>
+</li>
+<li>
+<a href="https://shortiedesigns.com/2014/03/10-top-principles-effective-web-design/" target="_blank">
+https://shortiedesigns.com/2014/03/10-top-principles-effective-web-design/</a>
+</li>
+<li>
+<a href="https://www.webdesign.org/10-best-website-design-tips-for-the-beginners.22862.html" 
+target="_blank">https://www.webdesign.org/10-best-website-design-tips-for-the-beginners.22862.html</a>
+</li>
+<li>
+<a href="https://www.webdesign.org/5-tips-for-building-a-website-that-customers-love.22889.html" 
+target="_blank">https://www.webdesign.org/5-tips-for-building-a-website-that-customers-love.22889.html</a>
+</li>
+</ul>
+</div>
+</body>
+</html>
