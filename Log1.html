@@ -55,6 +55,8 @@ p.main{
   padding-top:12px;}
 
 div.form{
+  border-width: 2px;
+  border-color: black;
   margin-left: 30vw;
   line-height: 0;}
 
@@ -71,7 +73,7 @@ textarea{
 textarea:focus {
   border: 3px solid #555;}
 
-input[type=integer]{
+input[type=text]{
   width: 70px;
   height: 20px;
   border: 2px solid #ccc;
@@ -81,7 +83,7 @@ input[type=integer]{
   border-radius: 5px;
   background-color: #f8f8f8;}
 
-input[type=integer]:focus {
+input[type=text]:focus {
   border: 3px solid #555;}
 
 </style>
@@ -92,7 +94,8 @@ input[type=integer]:focus {
 <div class="heading">Learning Python Progress Log</div>
 
 <div class="form"> <form action="PostLog.php" method="post">
-    <p class="main">Date: <input type="integer"></p>
+    <h4>New Log Entry</h4>
+    <p class="main">Date: <input type="text" name="date"></p>
     <p class="main">What I did:</p>
     <p><textarea name="progress"></textarea></p>
     <p class="main">Goals for next lesson/week: </p>
