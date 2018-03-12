@@ -8,6 +8,7 @@ div.sidebar{
   width: 10vw;
   margin-left: 0;
   padding: 3vw;
+  padding-top: 1vw;
   background-color: rgb(66, 82, 101);
   color: white;
   position: fixed;
@@ -26,6 +27,15 @@ div.sidebar{
 .dropdown:hover .dropdown-content {
     display: block;
   }
+p.sidebar{
+    margin-bottom: 5px;
+    line-height: 2;
+}
+p.option{
+    margin:0;
+    padding:0;
+    padding-bottom:3px;
+}
 div.heading{
   margin-left: 38vw;
   margin-top: 5vh;
@@ -35,30 +45,16 @@ div.heading{
   background-color: rgba(255,255,255,0.3);
   z-index:1;
 }
-p.sidebar{
-  margin-bottom: 5px;
-  line-height: 2;
-}
-p.option{
-  margin:0;
-  padding:0;
-  padding-bottom:3px;
-}
 a{
   color:white;
   text-decoration: none;
-}
-img {
-    position: absolute;
-    left: 28vw;
-    top: 3vh;
-    width:60vw;
-    z-index: -1;
 }
 </style>
 </head>
 
 <body>
+
+<div class="heading">Learning Python Progress Log</div>
 
   <div class="sidebar">
   <p class="sidebar"> <a href="index.html">Home</a></p>
