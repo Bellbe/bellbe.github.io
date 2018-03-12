@@ -36,6 +36,11 @@ p.option{
     padding:0;
     padding-bottom:3px;
 }
+
+a{
+  color:white;
+  text-decoration: none;}
+
 div.heading{
   margin-left: 38vw;
   margin-top: 5vh;
@@ -46,9 +51,9 @@ div.heading{
   z-index:1;
 }
 
-a{
-  color:white;
-  text-decoration: none;}
+h2{
+  font-weight: normal;
+  font-size: 1.2em;}
 
 p.main{
   padding:0;
@@ -94,7 +99,7 @@ input[type=text]:focus {
 <div class="heading">Learning Python Progress Log</div>
 
 <div class="form"> <form action="PostLog.php" method="post">
-    <h3>New Log Entry</h3>
+    <h2>New Log Entry</h2>
     <p class="main">Date: <input type="text" name="date"></p>
     <p class="main">What I did:</p>
     <p><textarea name="progress"></textarea></p>
