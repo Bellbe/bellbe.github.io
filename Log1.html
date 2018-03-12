@@ -45,26 +45,45 @@ div.heading{
   background-color: rgba(255,255,255,0.3);
   z-index:1;
 }
-p.main{
-  margin-left:30vw;}
+
 a{
   color:white;
-  text-decoration: none;
-}
+  text-decoration: none;}
 
-input[type=text] {
-width: 50%;
-height: 10vh;
-box-sizing: border-box;
-border: 2px solid #ccc;
--webkit-transition: 0.5s;
-transition: 0.5s;
-outline: none;
-border-radius: 15px;
-background-color: #f8f8f8;}
+p.main{
+  padding:0;
+  padding-top:12px;}
 
-input[type=text]:focus {
-border: 3px solid #555;}
+  div.form{
+    margin-left: 20vw;
+    line-height: 0;}
+
+  textarea{
+  width: 50%;
+  height: 50px;
+  border: 2px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 9px;
+  background-color: #f8f8f8;}
+
+  textarea:focus {
+  border: 3px solid #555;}
+
+  input[type=integer]{
+  width: 70px;
+  height: 20px;
+  border: 2px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 5px;
+  background-color: #f8f8f8;}
+
+  input[type=integer]:focus {
+  border: 3px solid #555;}
+
 </style>
 </head>
 
@@ -72,29 +91,30 @@ border: 3px solid #555;}
 
 <div class="heading">Learning Python Progress Log</div>
 
-<form action="PostLog.php" method="post">
-    <p class="main">Date: idfk</p>
-    <p class="main">What I did:<input type="text" name="progress"></p>
-    <p class="main">Goals for next lesson/week:
-    <input type="text" name="goals"></p>
+<div class="form"> <form action="PostLog.php" method="post">
+    <p class="main">Date: <input type="integer"></p>
+    <p class="main">What I did:</p>
+    <p><textarea name="progress"></textarea></p>
+    <p class="main">Goals for next lesson/week: </p>
+    <p><textarea name="goals"></textarea></p>
 </form>
 
-   <div class="sidebar">
+<div class="sidebar">
      <p class="sidebar"> <a href="index.html">Home</a></p>
      <p class="sidebar"> <a href="WebDesignProject.html" target="blank">
        Web Design</a></p>
-   <div class="dropdown">
+ <div class="dropdown">
      <p class="sidebar"><span>Learning Python</span></p>
    <div class="dropdown-content">
      <p class="option"><a href="idk" target="blank">Project Plan</a></p>
      <p class="option"><a href="idk" target="blank">Log</a></p>
      <p class="option"><a href="IDK.html" target="blank">Final Product</a></p>
+   </div>
   </div>
-   </div>
-   <div class="dropdown">
-     <p class="sidebar"><a href="IDK.html" target="blank">Future Project</a></p>
-   </div>
-   </div>
+  <div class="dropdown">
+   <p class="sidebar"><a href="IDK.html" target="blank">Future Project</a></p>
+  </div>
+</div>
 
-   </body>
-   </html>
+</body>
+</html>
