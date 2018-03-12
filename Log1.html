@@ -49,6 +49,20 @@ a{
   color:white;
   text-decoration: none;
 }
+
+input[type=text] {
+width: 50%;
+height: 10vh;
+box-sizing: border-box;
+border: 2px solid #ccc;
+-webkit-transition: 0.5s;
+transition: 0.5s;
+outline: none;
+border-radius: 15px;
+background-color: #f8f8f8;}
+
+input[type=text]:focus {
+border: 3px solid #555;}
 </style>
 </head>
 
@@ -57,85 +71,10 @@ a{
 <div class="heading">Learning Python Progress Log</div>
 
 <form action="PostLog.php" method="post">
- Date: <select name="day">
-   <option value="1">1</option>
-   <!DOCTYPE html>
-   <html>
-   <head>
-   <title>Ella Lord Computing Work</title>
-   <style>
-   div.sidebar{
-     height: 100vh;
-     width: 10vw;
-     margin-left: 0;
-     padding: 3vw;
-     padding-top: 1vw;
-     background-color: rgb(66, 82, 101);
-     color: white;
-     position: fixed;
-     top: 0;
-     left: 0;
-     text-align: left;
-   }
-   .dropdown-content {
-       display: none;
-       position: static;
-       background-color: rgb(66, 82, 101);
-       width: 8vw;
-       padding: 0px 16px;
-       z-index: 1;
-   }
-   .dropdown:hover .dropdown-content {
-       display: block;
-     }
-p.sidebar{
-       margin-bottom: 5px;
-       line-height: 2;}
-
-p.option{
-    margin:0;
-    padding:0;
-    padding-bottom:3px;}
-
-div.heading{
-     margin-left: 38vw;
-     margin-top: 5vh;
-     width: 40vw;
-     text-align: center;
-     font-size: 2em;
-     background-color: rgba(255,255,255,0.3);
-     z-index:1;}
-
-a{
-     color:white;
-     text-decoration: none;}
-
-input[type=text] {
-  width: 50%;
-  height: 10vh;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  outline: none;
-  border-radius: 15px;
-  background-color: #f8f8f8;}
-
-input[type=text]:focus {
-  border: 3px solid #555;}
-
-   </style>
-   </head>
-
-   <body>
-
-   <div class="heading">Learning Python Progress Log</div>
-
-   <form action="PostLog.php" method="post">
     Date: idfk
     What I did: <input type="text" name="progress">
     Goals for next lesson/week: <input type="text" name="goals">
-   </form>
+</form>
 
    <div class="sidebar">
      <p class="sidebar"> <a href="index.html">Home</a></p>
