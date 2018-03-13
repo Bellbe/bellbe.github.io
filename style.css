@@ -10,7 +10,6 @@ div.sidebar{
   top: 0;
   left: 0;
   text-align: left;}
-
 .dropdown-content {
   display: none;
   position: static;
@@ -18,7 +17,6 @@ div.sidebar{
   width: 8vw;
   padding: 0px 16px;
   z-index: 1;}
-
 .dropdown:hover .dropdown-content {
     display: block;
   }
@@ -31,11 +29,9 @@ p.option{
     padding:0;
     padding-bottom:3px;
 }
-
 a{
   color:white;
   text-decoration: none;}
-
 div.heading{
   margin-left: 38vw;
   margin-top: 5vh;
@@ -45,22 +41,18 @@ div.heading{
   background-color: rgba(255,255,255,0.3);
   z-index:1;
 }
-
 h2{
   font-weight: normal;
   font-size: 1.2em;}
-
 p.main{
   padding:0;
   padding-top:12px;}
-
 div.form{
   margin-top:8vh;
   margin-left:30vw;
   line-height:0;
   width:50vw;
   padding:2vw;}
-
 textarea{
   width: 100%;
   height: 15vh;
@@ -70,10 +62,8 @@ textarea{
   outline: none;
   border-radius: 9px;
   background-color: #f8f8f8;}
-
 textarea:focus {
   border: 3px solid #555;}
-
 input[type=text]{
   width: 70px;
   height: 20px;
@@ -83,16 +73,13 @@ input[type=text]{
   outline: none;
   border-radius: 5px;
   background-color: #f8f8f8;}
-
 input[type=text]:focus {
   border: 3px solid #555;}
-
 p.log{
   margin-top:0;
   margin-left:30vw;
   width:50vw;
   padding:0;}
-
 h.log{
   margin-top:8vh;
   margin-left:30vw;
