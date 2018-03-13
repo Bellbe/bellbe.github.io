@@ -1,67 +1,34 @@
-div.sidebar{
-  height: 100vh;
-  width: 10vw;
-  margin-left: 0;
-  padding: 3vw;
-  padding-top: 1vw;
-  background-color: rgb(66, 82, 101);
-  color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  text-align: left;}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ella Lord Computing Work</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
 
-.dropdown-content {
-  display: none;
-  position: static;
-  background-color: rgb(66, 82, 101);
-  width: 8vw;
-  padding: 0px 16px;
-  z-index: 1;}
+<div class="heading">Learning Python Progress Reports</div>
 
-.dropdown:hover .dropdown-content {
-    display: block;
-  }
-p.sidebar{
-    margin-bottom: 5px;
-    line-height: 2;
-}
-p.option{
-    margin:0;
-    padding:0;
-    padding-bottom:3px;
-}
+<div.backgrougnd><div.log>
+  <h2>14/03</h2>
+  <p class="main">some text</p>
+</div></div>
 
-a{
-  color:white;
-  text-decoration: none;}
+<div class="sidebar">
+<p class="sidebar"> <a href="index.html">Home</a></p>
+<p class="sidebar"> <a href="WebDesignProject.html" target="blank">
+  Web Design</a></p>
+<div class="dropdown">
+<p class="sidebar"><span>Learning Python</span></p>
+<div class="dropdown-content">
+  <p class="option"><a href="idk" target="blank">Project Plan</a></p>
+  <p class="option"><a href="Log1.html">Log</a></p>
+  <p class="option"><a href="IDK.html" target="blank">Final Product</a></p>
+</div>
+</div>
+<div class="dropdown">
+<p class="sidebar"><a href="IDK.html" target="blank">Future Project</a></p>
+</div>
+</div>
 
-div.heading{
-  margin-left: 38vw;
-  margin-top: 5vh;
-  width: 40vw;
-  text-align: center;
-  font-size: 2em;
-  background-color: rgba(255,255,255,0.3);
-  z-index:1;
-}
-
-div.background{
-  background-image:url(clouds.jpg);
-  opacity:0.5;
-  width:45vw;
-  margin-left:40vw;
-  margin-top:8vh;}
-
-div.log{
-  margin:0;
-  width:40vw;
-  padding:2vw;}
-
-h2{
-  font-weight: normal;
-  font-size: 1.2em;}
-
-p.main{
-  padding:0;
-  padding-top:12px;}
+</body>
+</html>
