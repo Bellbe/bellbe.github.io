@@ -47,14 +47,14 @@ div.heading{
 }
 
 div.background{
-    background-image:url(clouds.jpg);
-    opacity:0.5;
-    width:45vw;
-    margin-left:40vw;}
+  background-image:url(clouds.jpg);
+  opacity:0.5;
+  width:45vw;
+  margin-left:40vw;
+  margin-top:8vh;}
 
 div.log{
-  margin-top:8vh;
-  margin-left:38vw;
+  margin:0;
   width:40vw;
   padding:2vw;}
 
