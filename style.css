@@ -86,3 +86,10 @@ input[type=text]{
 
 input[type=text]:focus {
   border: 3px solid #555;}
+
+div.log{
+  margin-top:8vh;
+  margin-left:30vw;
+  width:50vw;
+  padding:2vw;}
+}
