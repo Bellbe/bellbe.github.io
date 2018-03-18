@@ -58,15 +58,17 @@ div.log{
   padding:2vw;}
 
 h2{
+  width: 5vw;
+  text-align:center;
+  margin-left:0;
   font-weight: normal;
   font-size: 1.2em;
   background-color: white;
-  opacity:0.6}
+  opacity:0.5}
 
 div.main{
   padding:0;
-  padding-top:12px;
   opacity: 1
   color: #000000;
   background-color: white;
-  opacity:0.6}
+  opacity:0.5}
