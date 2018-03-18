@@ -50,7 +50,8 @@ div.background{
   background-image:url(clouds.jpg);
   width:45vw;
   margin-left:35vw;
-  margin-top:8vh;}
+  margin-top:8vh;
+  opacity:0.5}
 
 div.log{
   margin:0;
