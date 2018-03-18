@@ -63,6 +63,7 @@ h2{
   font-weight: normal;
   font-size: 1.2em;}
 
-p.main{
+div.main{
   padding:0;
-  padding-top:12px;}
+  padding-top:12px;
+  opacity: 1}
