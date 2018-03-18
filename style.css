@@ -20,17 +20,16 @@ div.sidebar{
   z-index: 1;}
 
 .dropdown:hover .dropdown-content {
-    display: block;
-  }
+    display: block;}
+
 p.sidebar{
     margin-bottom: 5px;
-    line-height: 2;
-}
+    line-height: 2;}
+
 p.option{
     margin:0;
     padding:0;
-    padding-bottom:3px;
-}
+    padding-bottom:3px;}
 
 a{
   color:white;
@@ -43,8 +42,7 @@ div.heading{
   text-align: center;
   font-size: 2em;
   background-color: rgba(255,255,255,0.3);
-  z-index:1;
-}
+  z-index:1;}
 
 div.background{
   background-image:url(clouds.jpg);
