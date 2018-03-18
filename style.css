@@ -48,9 +48,9 @@ div.heading{
 
 div.background{
   background-image:url(clouds.jpg);
-  opacity:0.5;
+  opacity:0.6;
   width:45vw;
-  margin-left:38vw;
+  margin-left:37vw;
   margin-top:8vh;}
 
 div.log{
@@ -67,4 +67,3 @@ div.main{
   padding:0;
   padding-top:12px;
   opacity: 1}
-
