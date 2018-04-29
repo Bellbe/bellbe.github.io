@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ella Lord Computing Work</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="heading">Learning Python Project Report</div>
+
+<div class="background"><div class="log">
+  <div class="main"><p>My aim for this project was to learn some simple coding
+  skills in Python. I wanted to learn skills which I could see having actual
+  applications which could be useful to me. Obviously, I have not learnt enough
+  to code anything of use right now, but I did learn enough that I can see how
+  programming could be useful if I get better at it. Over the past month, I did
+  an online python course and wrote a program to read input and complete a
+  simple math problem.
+<p>The course that I did was from Computer Science Circles. The topics I
+  completed were:
+<ul><li>Variables</li>
+<li>Errors</li>
+<li>Functions</li>
+<li>Comments and Quotes</li>
+<li>Types</li>
+<li>Input</li>
+<li>If</li>
+<li>Design, Debugging and Donuts</li>
+<li>Strings</li>
+<li>Math</li>
+<li>Loops</li>
+<li>Else, And, Or, Not</li>
+<li>def</li>
+<li>Variable Scope</li>
+<li>Lists (Arrays)</li>
+<li>Methods</li></ul>
+While learning this, I wrote programs to complete small tasks. One of these was making a Python program which acted like a BASIC program with only goto and end commands (reading an input, if it's a goto command go to the line with the label that is the target of the goto statement or if it's an end statement then ending the program). I had to get a lot of help while working through some of the course but I feel like I understand the topics I completed. There are three topics and two 'major' practice problems which I did not complete. So that is one thing I could do to improve my outcomes from this project.</p>
+
+<p>I did not entirely finish the course because I wanted to write my own
+  program. I decided on modelling a problem from a maths assignment I had,
+  modified to make it more interesting to code. The problem I wound up with is,
+   "a sphere has a cylinder inscribed within it. For a given radius or height
+   of the cylinder, find its greatest possible volume". Using rep.it, I
+   successfully wrote a program to do this (attached).</p>
+
+<p>For the first few lessons I spent on my program, I forgot to bring in my
+  maths assignment which had the formula I needed to program in. Because of
+  that, I had a lot of spare time to fix problems with the project such as not
+  accepting inputs unless they were written typ=number. I accomplished that by
+  adding a function to find the number in any string and only scanning the
+  first letter to determine the type. Obviously, there were some bugs. I fixed
+  them using the code visualiser from Computer Science Circles, which let me s
+  tep through what was happening when I ran my program to see which line wasn't
+  working.</p>
+
+<p>If I had longer on this, the first thing I would do would be more thoroughly
+  test it by working out examples by hand, as I only had time for a few tests.
+  After that, the main addition I would like to make would be to get the
+  program to simplify square roots by factoring out perfect squares when giving
+  precise values (at the moment it could say something like 2√(25)π which,
+  while correct, would be better expressed as 10π).</p></div></div></div>
+
+<div class="sidebar">
+<p class="sidebar"> <a href="index.html">Home</a></p>
+<p class="sidebar"> <a href="WebDesignProject.html" target="blank">
+  Web Design</a></p>
+<div class="dropdown">
+<p class="sidebar"><span>Learning Python</span></p>
+<div class="dropdown-content">
+  <p class="option"><a href="Log1.html">Log</a></p>
+  <p class="option"><a href="IDK.html" target="blank">Final Report</a></p>
+</div>
+</div>
+<div class="dropdown">
+<p class="sidebar"><a href="IDK.html" target="blank">Future Project</a></p>
+</div>
+</div>
+
+</body>
+</html>
