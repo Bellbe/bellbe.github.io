@@ -6,6 +6,7 @@ div.menu{
 }
 
 .accordion {
+    display: inline-block;
     background-color: rgba(40,50,60,0.5);
     color: #444;
     cursor: pointer;
@@ -19,7 +20,7 @@ div.menu{
 }
 
 .active, .accordion:hover {
-    background-color: rgba(40,50,60,0.7); 
+    background-color: rgba(40,50,60,0.7);
 }
 
 .panel {
