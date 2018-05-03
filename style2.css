@@ -1,4 +1,5 @@
 div.menu{
+  display: block;
   width: 100vw;
   height: 8vh;
   min-height: 35px;
