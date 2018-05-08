@@ -17,6 +17,7 @@ div.menu{
     font-size: 15px;
     transition: 0.4s;
     margin: 0;
+    float: left;
 }
 
 .active, .accordion:hover {
