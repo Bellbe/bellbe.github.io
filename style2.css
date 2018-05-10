@@ -18,6 +18,6 @@ div.menu{
     float: left;
 }
 
-.option, .accordion:hover {
+.option, .option:hover {
     background-color: rgba(40,50,60,0.7);
 }
