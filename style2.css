@@ -2,11 +2,10 @@ div.menu{
   width: 100vw;
   height: 8vh;
   min-height: 35px;
-  background-color: rgba(40,50,60,0.5);
+  background-color: rgba(40,50,60,0.4);
 }
 
 .option {
-    background-color: rgba(40,50,60,0.5);
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -19,10 +18,9 @@ div.menu{
 }
 
 .option:hover {
-  background-color: rgba(40,50,60,0.6);
+  background-color: rgba(40,50,60,0.5);
 }
 
 a{
-  color:white;
   text-decoration: none;
 }
