@@ -1,8 +1,8 @@
 var cards = []
 
 function addCard(words) {
-  cards.push(words);
-  document.getElementById("cardFront").innerHTML = cards[0];
+  <!--cards.push(words);-->
+  document.getElementById("cardFront").innerHTML = words;
 }
 
 function showCard() {
