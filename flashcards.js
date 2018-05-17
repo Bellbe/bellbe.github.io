@@ -1,3 +1,3 @@
-function addCard() {
-  document.getElementById("cardFront").innerHTML = "words";
+function addCard(words) {
+  document.getElementById("cardFront").innerHTML = words;
 }
