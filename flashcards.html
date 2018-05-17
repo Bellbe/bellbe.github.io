@@ -8,8 +8,8 @@
 
 <body>
 
-<input type=text name=newCard></input>
-<button onclick="addCard(newCard)">Submit</button>
+<input type=text id="in"></input>
+<button onclick="addCard(document.getElementById("in").value)">Submit</button>
 
 <p id=cardFront>0</p>
 
