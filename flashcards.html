@@ -5,13 +5,20 @@
 <link rel="stylesheet" type="text/css" href="style2.css">
 <script src="flashcards.js"></script>
 </head>
-
 <body>
 
-<input type=text id="in"></input>
-<button onclick="addCard(document.getElementById("in").value)">Submit</button>
+<div class = "bar">
+<input class="button1" type="button" onClick="change('A')" value="Set A"/>
+<input class="button1" type="button" onClick="change('B')" value="Set B"/>
+<button class="button1" onclick="changeDir()"><p class=bar id="di">Forward</p></button>
+</div>
 
-<p id=cardFront>0</p>
+<div class='head'><p id="heading">No Set Chosen</p></div>
+
+<input class="button2" type="button" onClick="show()" value="New Card"/>
+<input class="button2" type="button" onClick="flip()" value="Flip Card"/>
+
+<div class="card"><p class="card" id="card"></p></div>
 
 </body>
 </html>
