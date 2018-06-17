@@ -1,26 +1,65 @@
-div.menu{
+/*The bit which displays the current set*/
+div.head{
+  margin-top: 60px;
+  margin-left: 35vw;
+  width: 30vw;
+  height: 6vh;
+  text-align: center;
+  font-size: 1.5em;}
+
+/*Top menu*/
+div.bar{
+  height: 40px;
+  border-bottom: 2px solid rgb(120, 120, 120);
+  background-color: rgba(120, 120, 120, 0.15);
   width: 100vw;
-  height: 8vh;
-  min-height: 35px;
-  background-color: rgba(40,50,60,0.4);
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
-.option {
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    margin: 0;
-    float: left;
+/*Buttons in the menu*/
+.button1{
+  height: 40px;
+  margin-top: 0;
+  margin-right: 15px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(100, 100, 100);
+  font-size: 0.8em;
+  border-radius: 4px;
 }
 
-.option:hover {
-  background-color: rgba(40,50,60,0.5);
+.button1:hover {
+    background-color: rgba(120, 120, 120, 0.4);
+    color: white;
 }
 
-a{
-  text-decoration: none;
+/*The new card/flip card buttons*/
+.button2{
+
+}
+
+p.bar { /*literally just the forward/backward button*/
+  padding: 0;
+  margin: 0;
+}
+
+div.options{
+  width: 12vw;
+  margin-left:44vw;
+  margin-bottom: 7vh;
+}
+
+/*the card*/
+div.card {
+  border: 2px solid rgb(120, 120, 120);
+  margin-left: 25vw;
+  width: 40vw;
+  height: 40vh;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  padding: 5vw;
 }
