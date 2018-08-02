@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ella Lord Computing Work</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="heading">Flashcard Website Progress Reports</div>
+
+<div class="background"><div class="log">
+  <h2>02/08</h2>
+  <div class="main"><p> As my third project I'm going to finish making my
+    flashcards website. The website I made in the last project kinda works as a
+    basis to add features to. At the most basic, I need to add the ability to
+    add new cards and have them permanantely save (and delete old sets). I would
+    also like to be able to add photos/videos, have people create accounts (so
+    their card sets wont show up for everyone) and have the whole set you're
+    accessing visible somewhere. That's quite a lot though so I'm just going to
+    aim for adding new cards. </p>
+    <p>One of the mistakes I made last time was trying to learn just what I
+    needed for the project which didn't give me enough background knowledge
+    to achieve what I wanted to. This time I'm going to start by doing some of
+    the node.js course on w3 schools because I'm fairly sure that will actually
+    let me write to and read a file (yay! Finally!).
+  </p></div></div></div>
+
+
+  <div class="sidebar">
+  <p class="sidebar"> <a href="index.html">Home</a></p>
+  <p class="sidebar"> <a href="WebDesignProject.html" target="blank">
+    Web Design</a></p>
+  <div class="dropdown">
+  <p class="sidebar"><span>Learning Python</span></p>
+  <div class="dropdown-content">
+    <p class="option"><a href="Log1.html">Log</a></p>
+    <p class="option"><a href="projectReport1">Final Report</a></p>
+    <p class="option"><a href="Computing-Project-1.py">My Project</a></p>
+  </div>
+  </div>
+  <div class="dropdown">
+  <p class="sidebar"><span>Flashcard Website</span></p>
+  <div class="dropdown-content">
+    <p class="option"><a href="Log2.html">Project Log</a></p>
+    <p class="option"><a href="Log3.html">2nd Project Log</a></p>
+    <p class="option"><a href="flashcards.html" target="blank">Final Product</a></p>
+  </div>
+  </div>
+  <div class="dropdown">
+    <p class="sidebar"><a href="IDK.html" target="blank">Future Project</a></p>
+  </div>
+  </div>
+
+</body>
+</html>
