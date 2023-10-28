@@ -1,0 +1,37 @@
+
+a{
+  color:white;
+  text-decoration: none;}
+
+div.heading{
+  margin-left: 38vw;
+  margin-top: 5vh;
+  width: 40vw;
+  text-align: center;
+  font-size: 2em;
+  background-color: rgba(255,255,255,0.3);
+  z-index:1;}
+
+div.background{
+  background-image:url(clouds.jpg);
+  background-size:cover;
+  width:50vw;
+  margin-left:32vw;
+  margin-top:8vh;}
+
+div.log{
+  margin:0;
+  width:46vw;
+  padding:2vw;
+  background-color:rgba(255,255,255,0.4)}
+
+h2{
+  font-weight: normal;
+  font-size: 1.2em;}
+
+div.main{
+  padding:0;
+  width:46vw;
+  padding-top:12px;
+  opacity: 1
+  color: #000000;}
